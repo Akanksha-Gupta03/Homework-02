@@ -6,17 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>contact</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+
+    </style>
 </head>
 <body>
     <style>
-        .container{
+      
+     body {
+     min-height: 100vh;
+     margin: 0;
+     background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821__340.jpg");
+     background-repeat:repeat-x;
+     }
+  
+     .container{
             background-color: rgb(207, 207, 204);
             max-width: 786px;
             padding: 25px;
             margin: auto;
             margin-top: 20px;
             
-        }
+      }
     </style>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -52,14 +63,15 @@
          <form>
             <div class="form-group">
                 <label for="exampleInputName">Name</label>
-                <input type="text" class="form-control"  id="myName">
+                <input type="text" class="form-control"  id="myName" placeholder="Enter your Name">
             </div>
             <div class="form-group">
               <label for="exampleInputEmail1">Email</label>
-              <input type="email" class="form-control" id="myEmail" aria-describedby="emailHelp">
+              <input type="email" class="form-control" id="myEmail" aria-describedby="emailHelp" placeholder="Enter your Email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
+                <label for="exampleFormControlTextarea1">Meassage</label>
                 <textarea class="form-control" id="message" rows="3"></textarea>
             </div>
             <button id='myButton' type="submit" class="btn btn-primary">Submit</button>
@@ -67,9 +79,9 @@
         </div> 
     </div>  
     <hr>
-    <footer class="page-footer font-small cyan darken-3">
+    <footer class="page-footer font-small cyan darken-3" style="position: fixed; left: 0; bottom: 0; width:100% ;background-color :cornflowerblue;color:white;text-align: center;">
       <div class="footer-copyright text-center py-3">© 2020 Copyright:
-         <a href="https://mdbootstrap.com/education/bootstrap/"> Akanksha Gupta</a>
+         <a href="https://mdbootstrap.com/education/bootstrap/" style="color: black;"> Akanksha Gupta</a>
       </div>
     </footer>
 
